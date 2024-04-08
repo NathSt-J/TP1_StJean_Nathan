@@ -6,7 +6,7 @@ public class Points : MonoBehaviour
 {
 
 
-    private int points;
+    public int points;
     private bool hasEntered;
 
     // Start is called before the first frame update
