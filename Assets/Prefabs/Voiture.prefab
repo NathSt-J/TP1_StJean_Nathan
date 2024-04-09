@@ -1405,7 +1405,7 @@ GameObject:
   - component: {fileID: 2523665562579453392}
   m_Layer: 0
   m_Name: Voiture
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1424,7 +1424,7 @@ Transform:
   m_Children:
   - {fileID: 5790467137200473707}
   m_Father: {fileID: 0}
-  m_RootOrder: -1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &4450346969461971633
 Rigidbody:
@@ -1469,10 +1469,6 @@ MonoBehaviour:
   frontLeft: {fileID: 2847351516498077255}
   backRight: {fileID: 5050801942640385646}
   backLeft: {fileID: 1658531511637078483}
-  frontRightTransform: {fileID: 6651765776838845284}
-  frontLeftTransform: {fileID: 6033611417236553187}
-  backRightTransform: {fileID: 5623556899913992347}
-  backLeftTransform: {fileID: 290483749245301629}
   acceleration: 500
   breakingForce: 300
   maxTurnAngle: 15
